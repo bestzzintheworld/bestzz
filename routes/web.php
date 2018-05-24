@@ -61,5 +61,8 @@ Route::get('/query1','UserController@query1');
 Route::get('/orm1','ZzController@orm1');
 Route::get('/orm2','ZzController@orm2');
 Route::get('/hi/index','HiController@index');
+Route::get('/hi/hello','HiController@hello');
+Route::post('/hi/upload','HiController@upload');
+Route::post('/hi/upload1','HiController@upload1');
 Route::get('/hi/testServer','HiController@testServer');
 Route::get('/hi/testClient','HiController@testClient');
